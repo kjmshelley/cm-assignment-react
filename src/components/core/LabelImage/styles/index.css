@@ -1,0 +1,6 @@
+.label-image {
+    display: flex;
+    flex-direction: row;
+    line-height: 14px;
+    height: 14px;
+}

@@ -1,0 +1,15 @@
+const Constants = {
+  HEART: "HEART",
+  HEART_FILLED: "HEART FILLED",
+  STAR: "STAR",
+  STAR_FILLED: "STAR FILLED",
+  STAR_HALF: "STAR HALF",
+  CLOCK: "CLOCK",
+  FIRE: "FIRE",
+  MACRO_RED: "MACRO_RED",
+  MACRO_BLUE: "MACRO_BLUE",
+  MACRO_YELLOW: "MACRO_YELLOW",
+  TROPHY: "TROPHY"
+};
+
+export default Constants;

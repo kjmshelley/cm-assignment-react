@@ -1,0 +1,51 @@
+.premium-recipe-card {
+    background-color: #FFF;
+    height: 340px;
+}
+
+.premium-recipe-card-header {
+    height: 240px;
+    width: 400px;
+    background-position: center center;
+    border-radius: 0.75rem 0.75rem 0 0;
+}
+
+.premium-recipe-card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around
+}
+
+.premium-recipe-card-favorite {
+    position: absolute;
+    top: 7px;
+    right: 7px;
+}
+
+.premium-recipe-card-title {
+    display: flex;
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    padding-bottom: 10px
+}
+
+.premium-recipe-card-user-ratings {
+    display: flex;
+    flex-direction: row;
+}
+
+.premium-recipe-card-ratings {
+    color: #1CA677;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 500;
+    padding-top: 10px
+}
+
+.premium-recipe-card-recipe-information {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

@@ -1,0 +1,63 @@
+.recipe-card {
+    height: 240px;
+    width: 400px;
+    background-position: center center;
+}
+
+.recipe-card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    z-index: 2;
+}
+
+.recipe-card-recipe-of-day {
+    display: flex;
+    color: #1BC98E;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.recipe-card-title {
+    display: flex;
+    color: #FFFFFF;
+    font-size: 24px;
+    width: 75%;
+    font-weight: 600;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.recipe-card-time-to-cook {
+    display: flex;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16px;
+}
+
+.recipe-card-food-energy {
+    display: flex;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16px;
+}
+
+.recipe-card-bottom {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.recipe-card-learn-more {
+    background-color: rgb(225, 225, 225, 0.5);
+    border: 1px #FFF;
+    padding: 8px;
+    color: #FFF;
+}

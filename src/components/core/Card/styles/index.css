@@ -1,0 +1,33 @@
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #FFF;
+    border-radius: 0.75rem;
+    height: 240px;
+    width: 400px;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.card-header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.card-header:hover {
+    opacity: 0.5;    
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+}
